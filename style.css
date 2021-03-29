@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px 200px 0 200px;
+    /* background-color: crimson; */
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 650px;
+    /* width: 650px; */
+
+    padding: 10px 0 10px 0;
+
+}
+
+#tm{
+    /* width: 587px; */
+    width: 100%;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 48px; */
+    font-size: 3rem;
+    line-height: 4rem;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.header--container{
+    width: 50%;
+    margin-left: 20px;
+    /* padding: 10px; */
+    padding-top: 10px;
+}
+
+.header--container >p{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.top--photo{
+/* width: 969px; */
+width: 100%;
+height: 29.375rem;
+
+background: url(img/photo1.png);
+background-repeat: no-repeat;
+background-size: 70vw 29.375rem;
+border-radius: 12px;
+
+margin-top: 30px;
+
+}
+
+main{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex: 1 1 100%;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.recipes-container{
+    /* background-color: cornflowerblue; */
+    max-width: 70%;
+}
+
+.ingredients--containner{
+    padding: 10px;
+}
+
+.ingredients--containner>h2{
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* identical to box height */
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.graham-recipe{
+    margin-top: 20px;
+}
+
+.graham-recipe >h2{
+    width: 11.0625rem;
+    height: 1.5rem;
+
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    /* identical to box height */
+
+
+    /* Gray 1 */
+}
+
+.check--items{
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5625rem;
+    /* or 156% */
+    display: inline-block;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+input{
+    height: 15px;
+    width: 18px;
+    /* border-color: darkturquoise; */
+}
+
+label{
+    line-height: 30px;
+    /* background-color: darkviolet; */
+}
+
+.cheesecake-recipe{
+    margin-top: 20px;
+}
+
+.cheesecake-recipe >h2{
+    width: 17.9375rem;
+    height: 3rem;
+
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+
+    /* Gray 1 */
+
+    color: #333333;
+}
