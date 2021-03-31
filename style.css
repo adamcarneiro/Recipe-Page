@@ -36,10 +36,11 @@ header{
 }
 
 .header--container{
-    width: 50%;
+    width: 62%;
     margin-left: 20px;
     /* padding: 10px; */
     padding-top: 10px;
+
 }
 
 .header--container >p{
@@ -74,6 +75,8 @@ main{
     flex: 1 1 100%;
     margin-top: 50px;
     width: 100%;
+
+    justify-content: space-between;
 }
 
 .recipes-container{
@@ -160,4 +163,168 @@ label{
     /* Gray 1 */
 
     color: #333333;
+}
+
+.instructions-container{
+    margin-top: 20px;
+}
+
+.instructions-container>h2{
+    width: 8.5625rem;
+    height: 2rem;
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* identical to box height */
+
+    /* Gray 1 */
+
+    color: #333333;
+}
+
+.instruction-block{
+    display: flex;
+    width: 34.375rem;
+    padding-top: 20px;
+    
+}
+
+.icon-div{
+    width: 36px;
+    height: 36px;
+
+    /* Orange */
+
+    background: #F2994A;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.instruction-content{
+    width: 100%;
+    /* height: 40px; */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+    color: #000000;
+    /* margin-top: 20px; */
+   margin-left: 10px;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+footer >a{
+    margin: 40px 0 0 200px;
+
+    width: 500px;
+    height: 24px;
+
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    /* Gray 4 */
+
+    color: #BDBDBD;
+}
+
+footer >p{
+    margin-top: 50px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #828282;
+
+}
+
+
+/* Left side */
+.left--information{
+
+    width: 216px;
+    height: 367px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+    margin-top: 10px;
+
+    /* background-color: violet; */
+    padding: 60px 40px;
+}
+
+.plate-information--block{
+    /* background-color: tomato; */
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.information{
+    margin-left: 10px;
+}
+
+.information--top{
+/* width: 38px; */
+/* height: 12px; */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+text-transform: uppercase;
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+
+.information--down{
+    /* position: absolute;
+width: 43px;
+height: 17px;
+left: 1069px;
+top: 935px; */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+
+margin-top: 5px;
+}
+
+.clock{
+
+    color:#4F4F4F;
 }
