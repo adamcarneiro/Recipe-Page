@@ -41,8 +41,8 @@
 ![screenshot](/screenshot/web-2.png)
 ![screenshot](/screenshot/web-4.png)
 ![screenshot](/screenshot/mobile-1.png)
-![screenshot](/screenshot/mobile-2.png)
 ![screenshot](/screenshot/mobile-3.png)
+![screenshot](/screenshot/mobile-2.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
